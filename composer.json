@@ -1,12 +1,21 @@
 {
     "name": "zhan3333/swoole",
+    "description": "Laravel Command Manager Tool",
     "authors": [
         {
             "name": "zhan",
             "email": "grianchan@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle": " ^6.3",
+        "laravel/framework": "^5.5",
+        "ext-swoole": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "swoole/ide-helper": "@dev"
+    },
     "autoload": {
         "psr-4": {
             "Zhan3333\\Swoole\\": "src/"

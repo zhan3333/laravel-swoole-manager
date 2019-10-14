@@ -1,12 +1,16 @@
 # Swoole Process Manager
 
+## Swoole Config
+
+- example: `swoole/config/swoole.php`
+
 ## Commands
 
 ### Manager
 
 - Params
-    - swoole_name: swoole.php setting item name
-    - action: start|stop|reload|status|pid|restart
+    - `swoole_name`: swoole.php setting item name
+    - `action`: start|stop|reload|status|pid|restart
 
 - example
     - `php artisan swoole all {action}`: operator all setting swoole
