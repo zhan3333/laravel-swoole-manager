@@ -8,7 +8,6 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": " ^6.3",
         "laravel/framework": "^5.5",
         "ext-swoole": "^4.0"
     },
