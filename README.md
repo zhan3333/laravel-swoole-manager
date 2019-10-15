@@ -2,7 +2,7 @@
 
 ## Swoole Config
 
-- example: `swoole/config/swoole.php`
+- Example: `swoole/config/swoole.php`
 
 ## Commands
 
