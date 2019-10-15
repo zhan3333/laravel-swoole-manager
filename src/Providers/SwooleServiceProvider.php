@@ -1,12 +1,11 @@
 <?php
 
-namespace Zhan3333\Swoole\Providers;
+namespace Zhan3333\LaravelSwooleManager\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Zhan3333\Swoole\Commands\RunSwoole;
-use Zhan3333\Swoole\Commands\SwooleCommand;
-use Zhan3333\Swoole\Commands\SwooleListCommand;
-use Zhan3333\Swoole\SwooleManager;
+use Zhan3333\LaravelSwooleManager\Commands\SwooleCommand;
+use Zhan3333\LaravelSwooleManager\Commands\SwooleListCommand;
+use Zhan3333\LaravelSwooleManager\SwooleManager;
 
 class SwooleServiceProvider extends ServiceProvider
 {

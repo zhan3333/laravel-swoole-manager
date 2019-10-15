@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Zhan3333\Swoole\Commands;
+namespace Zhan3333\LaravelSwooleManager\Commands;
 
 use Illuminate\Console\Command;
-use Zhan3333\Swoole\SwooleManager;
+use Zhan3333\LaravelSwooleManager\SwooleManager;
 
 class SwooleListCommand extends Command
 {

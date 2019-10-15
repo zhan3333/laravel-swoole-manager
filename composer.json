@@ -17,12 +17,20 @@
     },
     "autoload": {
         "psr-4": {
-            "Zhan3333\\Swoole\\": "src/"
+            "Zhan3333\\LaravelSwooleManager\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zhan3333\\Swoole\\Test": "tests/"
+            "Zhan3333\\LaravelSwooleManager\\Test": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhan3333\\LaravelSwooleManager\\Providers\\SwooleServiceProvider"
+            ],
+            "aliases": {}
         }
     }
 }

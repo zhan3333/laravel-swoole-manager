@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Zhan3333\Swoole;
+namespace Zhan3333\LaravelSwooleManager;
 
 
 use Swoole\Process;
