@@ -96,7 +96,7 @@ class SwooleCommand extends Command
         if (!$this->manager->isRun()) {
             $config = $this->config;
             $process = new Process(function (Process $worker) use ($config) {
-                swoole_set_process_name("[$this->swooleName] starting process");
+                @swoole_set_process_name("[$this->swooleName] starting process");
                 $this->manager->start();
             }, false, false);
             $process->start();

@@ -1,36 +1,36 @@
 {
-    "name": "zhan3333/laravel-swoole-manager",
-    "description": "Laravel Command Manager Tool",
-    "authors": [
-        {
-            "name": "zhan",
-            "email": "grianchan@gmail.com"
-        }
-    ],
-    "require": {
-        "laravel/framework": "^5.5",
-        "ext-swoole": "^4.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.5",
-        "swoole/ide-helper": "@dev"
-    },
-    "autoload": {
-        "psr-4": {
-            "Zhan3333\\LaravelSwooleManager\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Zhan3333\\LaravelSwooleManager\\Test": "tests/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Zhan3333\\LaravelSwooleManager\\Providers\\SwooleServiceProvider"
-            ],
-            "aliases": {}
-        }
+  "name": "zhan3333/laravel-swoole-manager",
+  "description": "Laravel Command Manager Tool",
+  "authors": [
+    {
+      "name": "zhan",
+      "email": "grianchan@gmail.com"
     }
+  ],
+  "require": {
+    "laravel/framework": "^5.5",
+    "ext-swoole": "^4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5",
+    "swoole/ide-helper": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zhan3333\\LaravelSwooleManager\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zhan3333\\LaravelSwooleManager\\Test": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zhan3333\\LaravelSwooleManager\\Providers\\SwooleServiceProvider"
+      ],
+      "aliases": {}
+    }
+  }
 }
